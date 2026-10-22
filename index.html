@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0717">
+<title>HAFIS PANEL</title>
+<style>
+:root{--bg:#090713;--panel:#151025;--panel2:#1d1532;--purple:#a855f7;--pink:#ec4899;--text:#f7f2ff;--muted:#b9aecb;--line:#38264e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#291144 0%,var(--bg) 52%);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;min-height:100vh}
+header{position:sticky;top:0;z-index:5;background:#0b0717eF;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{max-width:1050px;margin:auto;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-weight:900;letter-spacing:1px}.brand span{color:#d8a5ff}.navlinks{display:flex;gap:8px;flex-wrap:wrap}.navlinks a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:10px;font-size:14px}.navlinks a:hover{background:var(--panel2);color:white}
+main{max-width:1050px;margin:auto;padding:28px 18px 60px}.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:stretch}.card{background:linear-gradient(145deg,#1a1230eF,#100c1e);border:1px solid var(--line);border-radius:24px;padding:25px;box-shadow:0 18px 55px #0004}.tag{display:inline-flex;border:1px solid #69418a;background:#29153c;color:#e8c9ff;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.5px}.hero h1{font-size:clamp(36px,7vw,64px);line-height:1.02;margin:18px 0 12px;letter-spacing:-2px}.gradient{background:linear-gradient(90deg,#e9b8ff,#a855f7,#f472b6);background-clip:text;color:transparent}.lead{color:var(--muted);line-height:1.7;max-width:55ch}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:12px;padding:12px 16px;font-weight:800;text-decoration:none;cursor:pointer;background:linear-gradient(100deg,var(--purple),var(--pink));color:white}.btn.secondary{background:#211632;border:1px solid #49345e}.visual{display:flex;flex-direction:column;justify-content:space-between;min-height:270px;background:radial-gradient(circle at 70% 15%,#6b21a8 0,transparent 34%),linear-gradient(145deg,#211337,#0c0918)}.orb{width:118px;height:118px;margin:8px auto 20px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#f5d0fe,#a855f7 40%,#3b0764 75%);box-shadow:0 0 70px #a855f766;display:grid;place-items:center;font-size:38px;font-weight:900}.status{display:flex;justify-content:space-between;gap:12px;padding:13px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}.status strong{color:#d8b4fe}.section{margin-top:22px}.section h2{font-size:24px;margin:0 0 7px}.sub{color:var(--muted);margin:0 0 16px;line-height:1.6}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.tile{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:19px}.tile .icon{font-size:25px}.tile h3{margin:12px 0 6px}.tile p{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 14px}.uploadbox{border:1px dashed #8056a0;background:#120c20;border-radius:16px;padding:18px}.uploadbox input{max-width:100%;color:var(--muted)}.filelist{margin-top:12px;color:var(--muted);font-size:13px;overflow-wrap:anywhere}.profile{display:flex;align-items:center;gap:16px}.avatar{height:66px;width:66px;border-radius:20px;background:linear-gradient(140deg,#a855f7,#ec4899);display:grid;place-items:center;font-size:25px;font-weight:900}.footer{text-align:center;color:#9587a9;font-size:13px;padding:28px 0 0}.note{font-size:12px;color:#aa9cbb;line-height:1.6;margin-top:10px}
+@media(max-width:720px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.card{padding:20px}.nav{align-items:flex-start;flex-direction:column}.navlinks{width:100%}.navlinks a{padding:7px 9px}.hero h1{letter-spacing:-1px}}
+</style>
+</head>
+<body>
+<header><nav class="nav"><div class="brand">HAFIS<span>_</span>PANEL</div><div class="navlinks"><a href="#home">Home</a><a href="#fitur">Fitur</a><a href="#upload">Upload</a><a href="#whatsapp">WhatsApp</a></div></nav></header>
+<main>
+<section id="home" class="hero">
+ <div class="card">
+  <span class="tag">● WEBSITE PERSONAL</span>
+  <h1>WELCOME TO<br><span class="gradient">HAFIS PANEL</span></h1>
+  <p class="lead">Panel web simpel dengan tampilan dark neon ungu. Jelajahi fitur, pilih file dari perangkat untuk melihat nama file, atau hubungi melalui WhatsApp.</p>
+  <div class="actions"><a class="btn" href="#fitur">Jelajahi Panel ↗</a><a class="btn secondary" href="#whatsapp">Hubungi Saya</a></div>
+ </div>
+ <div class="card visual">
+  <div><div class="orb">H</div><h2 style="text-align:center;margin:0">by;hafis_</h2><p style="text-align:center;color:var(--muted);margin:7px 0 18px">CREATIVE WEB PANEL</p></div>
+  <div class="status"><span>Status tampilan</span><strong>● ONLINE READY</strong></div>
+  <div class="status"><span>Theme</span><strong>NEON PURPLE</strong></div>
+ </div>
+</section>
+<section id="fitur" class="section">
+ <h2>Menu Utama</h2><p class="sub">Pilih menu yang kamu butuhkan.</p>
+ <div class="grid">
+  <article class="tile"><div class="icon">⚡</div><h3>Home</h3><p>Halaman utama panel dengan desain responsif untuk layar HP maupun komputer.</p><a class="btn secondary" href="#home">Buka Home</a></article>
+  <article class="tile"><div class="icon">📁</div><h3>Upload File</h3><p>Pilih file dari perangkat. Versi statis ini hanya menampilkan file yang dipilih di browser.</p><a class="btn secondary" href="#upload">Pilih File</a></article>
+  <article class="tile" id="whatsapp"><div class="icon">💬</div><h3>WhatsApp</h3><p>Hubungi pemilik panel lewat WhatsApp.</p><a class="btn" href="https://wa.me/6288983816691" target="_blank" rel="noopener">Buka WhatsApp ↗</a></article>
+ </div>
+</section>
+<section id="upload" class="section card">
+ <h2>📂 Upload File</h2><p class="sub">Pilih file dari HP untuk melihat nama dan ukurannya. File tidak dikirim atau disimpan ke server.</p>
+ <div class="uploadbox"><input id="file" type="file" multiple><div id="filelist" class="filelist">Belum ada file dipilih.</div></div>
+ <p class="note">Agar file benar-benar bisa diunggah dan dilihat orang lain, website memerlukan backend penyimpanan online yang terpisah.</p>
+</section>
+<section class="section card">
+ <div class="profile"><div class="avatar">H</div><div><h2 style="margin:0">by;hafis_</h2><p class="sub" style="margin:5px 0 0">Personal web panel · Dark neon style</p></div></div>
+</section>
+<div class="footer">© <span id="year"></span> by;hafis_ · Made with ✦</div>
+</main>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('file').addEventListener('change', function(){
+ const out=document.getElementById('filelist');
+ if(!this.files.length){out.textContent='Belum ada file dipilih.';return;}
+ out.innerHTML='';
+ Array.from(this.files).forEach(f=>{const row=document.createElement('div');row.textContent='• '+f.name+' — '+(f.size<1024?f.size+' B':(f.size/1024).toFixed(1)+' KB');out.appendChild(row);});
+});
+</script>
+</body>
+</html>
